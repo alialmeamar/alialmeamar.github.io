@@ -1,28 +1,28 @@
-  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
  
-  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-  
-  @font-face {
-    font-family: myFirstFont;
-    src: url(/Fonts/AGCRegular.ttf);
-  }
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Fonts/AGCRegular.ttf);
+}
 
 :root{
-    --TurquoiseColor:#54b79f;
-    --BgCard:#1d222a;
+  --TurquoiseColor:#54b79f;
+  --BgCard:#1d222a;
 }
 body{
-    font-family: 'myFirstFont', sans-serif;
-    background: linear-gradient(151deg, #222831 43.67%, #2F343B 116.24%);
-    color: #ffffff;
+  font-family: 'myFirstFont', sans-serif;
+  background: linear-gradient(151deg, #222831 43.67%, #2F343B 116.24%);
+  color: #ffffff;
 }
 
 .avatarimg{
-    width: 628px;
+  width: 628px;
 height: 665.835px;
 flex-shrink: 0;
 }
@@ -43,16 +43,16 @@ color: var(--TurquoiseColor);
 }
 
 .name{
-    font-size: 80px;
+  font-size: 80px;
 }
 
- .iraqbg{
-    position: absolute;
-    transform: translate(-10px , -50px );
-    -webkit-transform: translate(-10px , -50px );
-    -moz-transform: translate(-10px , -50px );
-    -ms-transform: translate(-10px , -50px );
-    -o-transform: translate(-10px , -50px );
+.iraqbg{
+  position: absolute;
+  transform: translate(-10px , -50px );
+  -webkit-transform: translate(-10px , -50px );
+  -moz-transform: translate(-10px , -50px );
+  -ms-transform: translate(-10px , -50px );
+  -o-transform: translate(-10px , -50px );
 }
 
 .bgcard{
@@ -60,28 +60,49 @@ background-color: var(--BgCard);
 }
 
 .icon{
-   
+ 
 }
 
 .codeFont{
-    font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .infocard{
-    background: var(--BgCard);
+  background: var(--BgCard);
+  line-height: 2.5;
 }
 
 .cardtitle{
-    position: absolute;
-    transform: translateY(-60px  );
-    -webkit-transform: translateY(-60px  );
-    -moz-transform: translateY(-60px  );
-    -ms-transform: translateY(-60px  );
-    -o-transform: translateY(-60px  );
+  position: absolute;
+  transform: translateY(-60px  );
+  -webkit-transform: translateY(-60px  );
+  -moz-transform: translateY(-60px  );
+  -ms-transform: translateY(-60px  );
+  -o-transform: translateY(-60px  );
 }
 
 .plicon{
-    width:  90%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
+  width:  90%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.dotsbg{
+  background: url(/img/bgdogts.png);
+   background-repeat: no-repeat;
+   position: relative;
+   top: 40px;
+    left: 40px; 
+   height: 50vh;
+   width: 50vw;
+}
+
+.bi-patch-check , .bi-book-half , .bi-easel2  {
+  color: var(--TurquoiseColor);
+  margin-left: 30px ;
+}
+
+.bi-code-slash {
+  color: var(--TurquoiseColor);
+  margin-left: 10px ;
 }
