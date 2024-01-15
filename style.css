@@ -16,9 +16,12 @@
   --BgCard:#1d222a;
 }
 body{
+  margin: 0 !important;
+  padding: 0 !important;
   font-family: 'myFirstFont', sans-serif;
   background: linear-gradient(151deg, #222831 43.67%, #2F343B 116.24%);
   color: #ffffff;
+ 
 }
 
 .avatarimg{
@@ -82,7 +85,9 @@ background-color: var(--BgCard);
 }
 
 .plicon{
-  width:  90%;
+   
+  width:  50px; 
+  margin: 20px;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
@@ -106,3 +111,48 @@ background-color: var(--BgCard);
   color: var(--TurquoiseColor);
   margin-left: 10px ;
 }
+
+body::-webkit-scrollbar {
+  width: 4px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #222831;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #54b79f;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  */
+   /* creates padding around scroll thumb */
+}
+.container{
+padding-left: 20px;
+padding-right: 20px;
+}
+ td {
+  padding-top: 20px !important;
+  vertical-align: top;
+  
+
+}
+
+ 
+
+
+
+@media only screen and (max-width: 600px) {
+ body{
+ overflow-x: hidden;
+ }
+
+ .name{
+  font-size: 70px;
+}
+
+.bi-patch-check , .bi-book-half , .bi-easel2  {
+  color: var(--TurquoiseColor);
+  margin-left:10px ;
+}
+}
+
