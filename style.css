@@ -179,13 +179,20 @@ padding-right: 20px;
   }
 }
 
-.scrani{
-  opacity: 0;
-  animation: faidin ;
-  -webkit-animation: faidin ;
-  animation-timeline: view() ;
-  animation-range: cover     ;
+
+@media only screen and (min-width: 601px) {
+
+  .scrani{
+    opacity: 0;
+    animation: faidin ;
+    -webkit-animation: faidin ;
+    animation-timeline: view() ;
+    animation-range: cover     ;
+  }
 }
+
+
+
 
 @keyframes faidin {
 
